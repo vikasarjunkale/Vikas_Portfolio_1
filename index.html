@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikas Kale- Portfolio</title> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cb229fd7ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Test Engineer</p>
+                <h1>Hi, I'm <span>Vikas</span><br> Kale from Pune</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------About---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Background_Image.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Temporibus sint, illum amet earum dicta dolore assumenda deserunt, 
+                        provident magnam consectetur iusto, totam qui neque saepe veritatis tempore. Sequi, 
+                        commodi. Quibusdam!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Selenium WebDriver</span><br>Automation Testing</li>
+                                <li><span>Rest-Assured</span><br>API Testing</li>
+                                <li><span>Functional</span><br>Manual Testing</li>
+                                <li><span>Core Java</span><br>Programming Language</li>
+                                <li><span>SQL</span><br>Database Testing</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Aug 2023 - April 2024</span><br>Sogtware Test Engineer.</li>
+                                <li><span>June 2022 - Jan 2023</span><br>Senior Test Engineer.</li>
+                                <li><span>June 2018 - June 2022</span><br>QA Analyst.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2015</span><br>Bachelor of Engineering from Pune University.</li>
+                                <li><span>2010</span><br>HSC from Maharashtra State Board.</li>
+                                <li><span>2008</span><br>SSC from Maharashtra State Board.</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------Services------------------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Culpa nisi quidem iusto tempora eos. Asperiores officiis enim voluptatem 
+                    ratione magnam animi, incidunt explicabo culpa esse modi optio ipsam. Voluptatem, nemo.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Culpa nisi quidem iusto tempora eos. Asperiores officiis enim voluptatem 
+                    ratione magnam animi, incidunt explicabo culpa esse modi optio ipsam. Voluptatem, nemo.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Culpa nisi quidem iusto tempora eos. Asperiores officiis enim voluptatem 
+                    ratione magnam animi, incidunt explicabo culpa esse modi optio ipsam. Voluptatem, nemo.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- --------------------portfolio------------------------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Manual.jpg" alt="">
+                    <div class="layer">
+                        <h3>Manual Testing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Aliquid odio mollitia eum molestias delectus eaque dolorum possimus corrupti repellat optio, 
+                        autem numquam temporibus sunt ducimus voluptate! Expedita doloribus impedit et.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Automation.jpg" alt="">
+                    <div class="layer">
+                        <h3>Automation Testing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Aliquid odio mollitia eum molestias delectus eaque dolorum possimus corrupti repellat optio, 
+                        autem numquam temporibus sunt ducimus voluptate! Expedita doloribus impedit et.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/API_Testing.jpg" alt="">
+                    <div class="layer">
+                        <h3>API Testing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Aliquid odio mollitia eum molestias delectus eaque dolorum possimus corrupti repellat optio, 
+                        autem numquam temporibus sunt ducimus voluptate! Expedita doloribus impedit et.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+     <!-- ------------------------contact------------------ -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>vikaskale9892@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+91 9168996994</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vikas-kale-22412226b"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Vikas_Kale_Test_Engineer..pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© by <i class="fa-solid fa-heart"></i> VikasKale in 2025. All Rights Reserved.</p>
+        </div>
+      </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");;
+        }
+    </script>
+
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+       const scriptURL = 'https://script.google.com/macros/s/AKfycbwStH-5-03RQKkiZG-s0IjjabQVxvL6P-P3Drt9kA3hQ-Ht_naRZb1CJCTi1Rovy3K0/exec'
+       const form = document.forms['submit-to-google-sheet']
+       const msg = document.getElementById("msg");
+
+       form.addEventListener('submit', e => {
+       e.preventDefault()
+       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+       .then(response => {
+        msg.innerHTML = " Message sent successfully!"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },3000)
+        form.reset()
+       })
+       .catch(error => console.error('Error!', error.message))
+     })
+</script>
+</body>
+</html>
